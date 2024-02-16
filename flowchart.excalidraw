@@ -131,8 +131,8 @@
     },
     {
       "type": "text",
-      "version": 755,
-      "versionNonce": 61271061,
+      "version": 756,
+      "versionNonce": 707081891,
       "isDeleted": false,
       "id": "6A6WyL4wRjszAyegF0Ip2",
       "fillStyle": "solid",
@@ -141,18 +141,18 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 1316.4518780178491,
+      "x": 1316.5022243923609,
       "y": -653.599921332465,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#e6fcf5",
-      "width": 193.29112243652344,
+      "width": 193.1904296875,
       "height": 22.100557568072524,
       "seed": 1655891739,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708071229559,
+      "updated": 1708077355028,
       "link": null,
       "locked": false,
       "fontSize": 19.217876146150022,
@@ -233,7 +233,7 @@
       "containerId": "bfKgr--sPWpjnHYbOwaGm",
       "originalText": "Rainbow-To-Do-App-Flowchart",
       "lineHeight": 1.15,
-      "baseline": 15
+      "baseline": 14
     },
     {
       "type": "rectangle",
@@ -266,8 +266,8 @@
     },
     {
       "type": "text",
-      "version": 457,
-      "versionNonce": 1345989257,
+      "version": 458,
+      "versionNonce": 1592342797,
       "isDeleted": false,
       "id": "MbEKxQbSj4-2RqvLpmRqY",
       "fillStyle": "solid",
@@ -276,11 +276,11 @@
       "roughness": 1,
       "opacity": 100,
       "angle": 0,
-      "x": 440.42021644023055,
+      "x": 438.1440323581993,
       "y": -548.5126817491316,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#f8f0fc",
-      "width": 395.4714050292969,
+      "width": 400.0237731933594,
       "height": 85.62644178356811,
       "seed": 1721041307,
       "groupIds": [],
@@ -292,7 +292,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1708076238902,
+      "updated": 1708077355032,
       "link": null,
       "locked": false,
       "fontSize": 18.61444386599307,
@@ -419,7 +419,7 @@
       "containerId": null,
       "originalText": "---------------------------------------",
       "lineHeight": 1.15,
-      "baseline": 15
+      "baseline": 14
     },
     {
       "type": "rectangle",
@@ -488,8 +488,8 @@
     },
     {
       "type": "text",
-      "version": 1564,
-      "versionNonce": 129654407,
+      "version": 1565,
+      "versionNonce": 1244424771,
       "isDeleted": false,
       "id": "Bijm-DWfCHKJc7bgbtT6j",
       "fillStyle": "solid",
@@ -502,14 +502,14 @@
       "y": 5.146172417535013,
       "strokeColor": "#1e1e1e",
       "backgroundColor": "#f8f0fc",
-      "width": 398.140625,
+      "width": 398.1328125,
       "height": 110.39999999999999,
       "seed": 591122779,
       "groupIds": [],
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238903,
+      "updated": 1708077355040,
       "link": null,
       "locked": false,
       "fontSize": 16,
@@ -622,7 +622,7 @@
       "containerId": "27tN1U7ah8geTxgv9q1MW",
       "originalText": "addTask(event)",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "arrow",
@@ -707,8 +707,8 @@
     },
     {
       "type": "text",
-      "version": 351,
-      "versionNonce": 780530025,
+      "version": 353,
+      "versionNonce": 1367479324,
       "isDeleted": false,
       "id": "BTpZpgJDo-WixGATSE7vq",
       "fillStyle": "solid",
@@ -728,7 +728,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238904,
+      "updated": 1708077443208,
       "link": null,
       "locked": false,
       "fontSize": 15.850618470352977,
@@ -739,12 +739,12 @@
       "containerId": null,
       "originalText": "todoList = QuerySelector(todo-list)",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 13
     },
     {
       "type": "text",
-      "version": 210,
-      "versionNonce": 1511716263,
+      "version": 212,
+      "versionNonce": 242076580,
       "isDeleted": false,
       "id": "XEwHGSJPQR4GuY0XVAvO0",
       "fillStyle": "solid",
@@ -764,7 +764,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238904,
+      "updated": 1708077443209,
       "link": null,
       "locked": false,
       "fontSize": 30.440926346052645,
@@ -775,12 +775,12 @@
       "containerId": null,
       "originalText": " Global Variables",
       "lineHeight": 1.25,
-      "baseline": 27
+      "baseline": 26
     },
     {
       "type": "text",
-      "version": 1009,
-      "versionNonce": 561372233,
+      "version": 1011,
+      "versionNonce": 820064412,
       "isDeleted": false,
       "id": "3kaRiPAxo2ydO7Zm81Ixt",
       "fillStyle": "solid",
@@ -800,7 +800,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238904,
+      "updated": 1708077443211,
       "link": null,
       "locked": false,
       "fontSize": 17.431832190444414,
@@ -867,8 +867,8 @@
     },
     {
       "type": "text",
-      "version": 612,
-      "versionNonce": 1050388679,
+      "version": 614,
+      "versionNonce": 763148068,
       "isDeleted": false,
       "id": "lqo9g2T9lX9UmAniygPtG",
       "fillStyle": "solid",
@@ -888,7 +888,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238905,
+      "updated": 1708077443213,
       "link": null,
       "locked": false,
       "fontSize": 14.711533744904656,
@@ -973,7 +973,7 @@
       "containerId": "OEsKXuBwNDhBoLooiHDpA",
       "originalText": "creates removeTask\n& class of remove\nand give X text.content",
       "lineHeight": 1.25,
-      "baseline": 119
+      "baseline": 121
     },
     {
       "type": "arrow",
@@ -1151,7 +1151,7 @@
       "containerId": "beipkgdqYS-3oZJuKf7wk",
       "originalText": "creates todoTask\nand adds it to todoList",
       "lineHeight": 1.25,
-      "baseline": 94
+      "baseline": 96
     },
     {
       "type": "rectangle",
@@ -1233,12 +1233,12 @@
       "containerId": "OYfpLqvTpcvZCqhvr2tTI",
       "originalText": "creates checkBox",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 46
     },
     {
       "type": "text",
-      "version": 423,
-      "versionNonce": 1222994729,
+      "version": 425,
+      "versionNonce": 2133376284,
       "isDeleted": false,
       "id": "rj8GC-HbpGcK-55r59_oH",
       "fillStyle": "solid",
@@ -1251,7 +1251,7 @@
       "y": -252.47687445746493,
       "strokeColor": "#ffffff",
       "backgroundColor": "#a5d8ff",
-      "width": 305.5201416015625,
+      "width": 305.52008056640625,
       "height": 19.086739256378817,
       "seed": 1309106331,
       "groupIds": [],
@@ -1263,7 +1263,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1708076238905,
+      "updated": 1708077443215,
       "link": null,
       "locked": false,
       "fontSize": 15.269391405103052,
@@ -1274,7 +1274,7 @@
       "containerId": null,
       "originalText": "checkBox = input(class = task-checkbox)",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 13
     },
     {
       "type": "arrow",
@@ -1376,8 +1376,8 @@
     },
     {
       "type": "text",
-      "version": 813,
-      "versionNonce": 853080039,
+      "version": 815,
+      "versionNonce": 1923232420,
       "isDeleted": false,
       "id": "33qh4tkulnYUMDl8QIYxP",
       "fillStyle": "solid",
@@ -1397,7 +1397,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238905,
+      "updated": 1708077443216,
       "link": null,
       "locked": false,
       "fontSize": 19.832688006672154,
@@ -1444,12 +1444,12 @@
       "containerId": "e6vxbMzFRAt8LDPQNcp9Z",
       "originalText": "get taskInput.value\n(inputValue)\n&\ncreates label\n& adds class of task-label\n-----------------------\nlabel.textcontent = inputValue",
       "lineHeight": 1.25,
-      "baseline": 219
+      "baseline": 221
     },
     {
       "type": "text",
-      "version": 277,
-      "versionNonce": 1027612169,
+      "version": 279,
+      "versionNonce": 634042780,
       "isDeleted": false,
       "id": "eKCmV7IR7hsvxDz1eDNBW",
       "fillStyle": "solid",
@@ -1469,7 +1469,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238905,
+      "updated": 1708077443218,
       "link": null,
       "locked": false,
       "fontSize": 35.199999999999996,
@@ -1480,12 +1480,12 @@
       "containerId": null,
       "originalText": "Local Variables",
       "lineHeight": 1.25,
-      "baseline": 31
+      "baseline": 30
     },
     {
       "type": "text",
-      "version": 488,
-      "versionNonce": 1289708295,
+      "version": 490,
+      "versionNonce": 2089565732,
       "isDeleted": false,
       "id": "2olAHOPQ0VrOATFvvGWkN",
       "fillStyle": "solid",
@@ -1505,7 +1505,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238905,
+      "updated": 1708077443220,
       "link": null,
       "locked": false,
       "fontSize": 14.586745133444289,
@@ -1520,8 +1520,8 @@
     },
     {
       "type": "text",
-      "version": 410,
-      "versionNonce": 2105636073,
+      "version": 412,
+      "versionNonce": 267986460,
       "isDeleted": false,
       "id": "FO0dT8EaCLOQnsy7Ancfs",
       "fillStyle": "solid",
@@ -1541,7 +1541,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238905,
+      "updated": 1708077443221,
       "link": null,
       "locked": false,
       "fontSize": 15.850618470352977,
@@ -1552,12 +1552,12 @@
       "containerId": null,
       "originalText": "addButton = QuerySelector(add-task)",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 13
     },
     {
       "type": "text",
-      "version": 207,
-      "versionNonce": 757819943,
+      "version": 209,
+      "versionNonce": 1680398756,
       "isDeleted": false,
       "id": "NA6aEHs7BWiVIe5YnNdAm",
       "fillStyle": "solid",
@@ -1577,7 +1577,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238906,
+      "updated": 1708077443223,
       "link": null,
       "locked": false,
       "fontSize": 19.911724420312982,
@@ -1666,7 +1666,7 @@
       "containerId": "T5xF0JSMmb_ntI4UHNsmr",
       "originalText": "appendChild to todoTask(checkBox,label,removeTask)\n&\nappends to todoList(todoTask)",
       "lineHeight": 1.25,
-      "baseline": 144
+      "baseline": 146
     },
     {
       "type": "arrow",
@@ -1788,7 +1788,7 @@
       "containerId": "WPeBC-d2Nh2a9LZp8z3Hn",
       "originalText": "clears inputValue after task submited",
       "lineHeight": 1.25,
-      "baseline": 69
+      "baseline": 71
     },
     {
       "type": "arrow",
@@ -2142,7 +2142,7 @@
       "containerId": "JLVi2Al45eSpx2xBC2EoL",
       "originalText": "taskCompletion(event)",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "arrow",
@@ -2381,7 +2381,7 @@
       "containerId": "r8wohjtY934xZzc4-vi4k",
       "originalText": "checks if event.target.matches to checkBox",
       "lineHeight": 1.25,
-      "baseline": 94
+      "baseline": 96
     },
     {
       "type": "text",
@@ -2417,7 +2417,7 @@
       "containerId": "WjqPzbPPH6cUN6Ud9YQ2_",
       "originalText": "match",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "arrow",
@@ -2510,7 +2510,7 @@
       "containerId": "M2lDosr7rRUSH_spFwQzi",
       "originalText": "dont match",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "rectangle",
@@ -2584,7 +2584,7 @@
       "containerId": "OWqRtODGY-WxCozVAM0UR",
       "originalText": "adds class \"completed' to closetsLi",
       "lineHeight": 1.25,
-      "baseline": 69
+      "baseline": 71
     },
     {
       "type": "rectangle",
@@ -2694,7 +2694,7 @@
       "containerId": "DxFdnluEHzHICADkwU7WO",
       "originalText": "deleteTask(event)",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "diamond",
@@ -2784,12 +2784,12 @@
       "containerId": "5vYZuvvNs5YApZ3P1ampb",
       "originalText": "checks if event.target.matches(.remove)",
       "lineHeight": 1.25,
-      "baseline": 94
+      "baseline": 96
     },
     {
       "type": "text",
-      "version": 280,
-      "versionNonce": 490008521,
+      "version": 282,
+      "versionNonce": 1923482268,
       "isDeleted": false,
       "id": "TFd6j6fyFbWtElZnwjZPT",
       "fillStyle": "solid",
@@ -2809,7 +2809,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238906,
+      "updated": 1708077443224,
       "link": null,
       "locked": false,
       "fontSize": 13.06050414846871,
@@ -2824,8 +2824,8 @@
     },
     {
       "type": "text",
-      "version": 136,
-      "versionNonce": 816418119,
+      "version": 138,
+      "versionNonce": 1957037348,
       "isDeleted": false,
       "id": "aU4HplTYPaI3RmtbwJKDy",
       "fillStyle": "solid",
@@ -2845,7 +2845,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238906,
+      "updated": 1708077443226,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -2912,8 +2912,8 @@
     },
     {
       "type": "text",
-      "version": 586,
-      "versionNonce": 846597801,
+      "version": 588,
+      "versionNonce": 344149788,
       "isDeleted": false,
       "id": "aKO69JXIxq_1ETZYLlXtI",
       "fillStyle": "solid",
@@ -2933,7 +2933,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238906,
+      "updated": 1708077443227,
       "link": null,
       "locked": false,
       "fontSize": 15.642109486327252,
@@ -2944,7 +2944,7 @@
       "containerId": null,
       "originalText": "closetsLi = event.target.closets(li)",
       "lineHeight": 1.25,
-      "baseline": 14
+      "baseline": 13
     },
     {
       "type": "arrow",
@@ -3037,7 +3037,7 @@
       "containerId": "I-2XMJCTWiaJ66fP-urvH",
       "originalText": "function vars",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "rectangle",
@@ -3115,7 +3115,7 @@
       "containerId": "I199SV1cP8qpnUsmCQ05j",
       "originalText": "removes class \"completed' from closetsLi",
       "lineHeight": 1.25,
-      "baseline": 69
+      "baseline": 71
     },
     {
       "type": "arrow",
@@ -3312,7 +3312,7 @@
       "containerId": "525Jgor2fXvQr86z8T4RJ",
       "originalText": "dont match",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "arrow",
@@ -3405,7 +3405,7 @@
       "containerId": "3zN345Os9XHw2pjXxS-oC",
       "originalText": "match",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "rectangle",
@@ -3479,7 +3479,7 @@
       "containerId": "gPIIPxpzKDjdRwhAh-skY",
       "originalText": "does nothing",
       "lineHeight": 1.25,
-      "baseline": 19
+      "baseline": 21
     },
     {
       "type": "rectangle",
@@ -3521,8 +3521,8 @@
     },
     {
       "type": "text",
-      "version": 221,
-      "versionNonce": 1656114279,
+      "version": 223,
+      "versionNonce": 1668399268,
       "isDeleted": false,
       "id": "jGQiCtTv6SQ6jETpKL7CH",
       "fillStyle": "solid",
@@ -3542,7 +3542,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238906,
+      "updated": 1708077443228,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -3557,8 +3557,8 @@
     },
     {
       "type": "text",
-      "version": 689,
-      "versionNonce": 66081161,
+      "version": 691,
+      "versionNonce": 369298332,
       "isDeleted": false,
       "id": "T4SxGYZH6dWAS8WlWKbms",
       "fillStyle": "solid",
@@ -3578,7 +3578,7 @@
       "frameId": null,
       "roundness": null,
       "boundElements": [],
-      "updated": 1708076238907,
+      "updated": 1708077443229,
       "link": null,
       "locked": false,
       "fontSize": 14.801028346422482,
@@ -3625,7 +3625,7 @@
       "containerId": "BxlmNYgHAFsfKKkcJg5cz",
       "originalText": "creates closetsLi \n& remove closetsLi",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 46
     },
     {
       "type": "arrow",
@@ -3785,7 +3785,7 @@
       "containerId": "Tv6Eb4ucq-1npb_DDF6hw",
       "originalText": "Add event listener on todoList (\"change\",taskCompletion)",
       "lineHeight": 1.25,
-      "baseline": 69
+      "baseline": 71
     },
     {
       "type": "rectangle",
@@ -3855,7 +3855,7 @@
       "containerId": "zrCkmhp-RdorLo7-40-6n",
       "originalText": "Add event listener on todoList (\"click\",deleteTask)",
       "lineHeight": 1.25,
-      "baseline": 44
+      "baseline": 46
     },
     {
       "type": "text",
@@ -3891,7 +3891,7 @@
       "containerId": "F4vvhxFg0lb91s1Zxd78Q",
       "originalText": "Add event listener on addButton (\"click\",addTask)",
       "lineHeight": 1.25,
-      "baseline": 69
+      "baseline": 71
     }
   ],
   "appState": {
