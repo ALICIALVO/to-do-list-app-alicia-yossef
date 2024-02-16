@@ -7,6 +7,42 @@
 /* 
 * Add your own CSS code below... 
 */
+body {
+    // min-height:90%;
+    background: 
+     linear-gradient(to right, 
+        #ceecc0  , 
+        #ceecd8  , 
+        #c0dbec  , 
+        #cbc0ec  , 
+        #ecc0e7 , 
+        #ecc0c1,
+        #ece4c0)  100% no-repeat, /* 25% = height */
+      ;
+
+    // background: linear-gradient(217deg, #ceecc0 80%, #ceecd8 70.71%),
+    //         linear-gradient(127deg, #c0dbec 80%, #cbc0ec 70.71%),
+    //         linear-gradient(336deg, #ecc0e7 80%, #ecc0c1 20.71%);
+
+    //         background: linear-gradient(
+    //   217deg,
+    //   rgb(206 236 192 / 80%),
+    //   rgb(206 236 216 / 0%) 70.71%
+    // ), linear-gradient(127deg, rgb(192	219	236 / 80%), rgb(203 192 236 / 80%) 10.71%),
+    // linear-gradient(336deg, rgb(236 192 231 / 20%), rgb(236 192 193 / 50%) 30.71% , rgb(236 228 192 / 80%) 20.71%);
+
+//     background: linear-gradient(
+//       280deg,
+//       rgb(206 236 192 / 80%),
+//       rgb(206 236 216 / 20%) 40.71%
+//     ), linear-gradient(127deg, rgb(192	219	236 / 80%), rgb(203 192 236 / 50%) 20.71%),
+//     linear-gradient(336deg, rgb(236 192 231 / 80%), rgb(236 192 193 / 80%) 40.71%), 
+//   linear-gradient(
+//       117deg,
+//       rgb(236 228 192 / 80%),
+//       rgb(236 228 192 / 40%) 50.71%
+//     );
+}
 
 .main-title{
     font-size:5rem;
@@ -67,16 +103,45 @@
     .todo-task {
         display: flex;
         flex-grow: 2;
-        padding: 2rem;
+        padding: 1rem;
         margin-top: 2rem;
         border: 1px solid;
+        background: rgba(245, 222, 179, 0.285);
+        border-radius: 0.8rem;
+        opacity: 0.8;
 
+        input[type="checkbox"]{
+            opacity: 0.3;
+            position: absolute;
+            left: 1rem;
+            top: 1.2rem;
+            width: 2.5rem;
+            height: 2rem;
+            box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.565);
+          }
     }
 
     .task-label{
         flex-grow: 2;
+        display: flex;
+        background-image: url(/icons/square.png);
+        background-size: 2.5rem;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        padding: 0.2rem 4rem;
+        line-height: 2.5rem;
+        align-self: center;
     }
+
 }
+
+.todo-task {
+    padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
 
 .todo-footer{
     display: flex;
@@ -91,3 +156,6 @@
     }
 
 }
+
+
+
