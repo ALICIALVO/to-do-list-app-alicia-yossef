@@ -1,0 +1,14 @@
+
+
+@mixin base-box($width : 5rem, $height: 5rem, $bg-color: black){
+  width: $width;
+  height: $height;
+  background-color: $bg-color;
+}
+
+@mixin flex-box($dir:row, $jc: center, $ai: center){
+  display:flex;
+  flex-direction: $dir;
+  justify-content: $jc;
+  align-items: $ai;
+}
