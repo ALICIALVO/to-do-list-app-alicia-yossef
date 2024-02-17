@@ -224,7 +224,7 @@ body {
           
         }
   
-        &:hover::before {
+        &:active::before {
             // padding-left: 1rem;
           width: 20%; /* Adjust width to account for padding */
           background-image: url(/icons/approved.png);
