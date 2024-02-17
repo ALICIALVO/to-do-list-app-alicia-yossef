@@ -1,8 +1,21 @@
 const todoList = document.querySelector('.todo-list');
 const taskInput = document.querySelector('#task-input');
 const addButton = document.querySelector('.add-task');
+const todoForm = document.querySelector('.todo-form');
+
+function onFormSubmit(event){
+    event.preventDefault();
+    addTask();
+    taskInput.value= '';
+
+}
+todoForm.addEventListener('submit', onFormSubmit);
 
 function addTask(){
+    if(taskInput.value === ''){
+        alert('Hey there, you forgot to write something!(:');
+        
+    }else{
     // gets value from user input:
     const inputValue = taskInput.value;
     
@@ -32,7 +45,8 @@ function addTask(){
     todoList.appendChild(todoTask);
     
     taskInput.value= '';
-    saveData();
+    // saveData();
+    }
 }
 
 addButton.addEventListener('click', addTask);
