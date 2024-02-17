@@ -167,6 +167,10 @@ body {
 
 
 .todo-list {
+    .completed{
+        text-decoration: line-through;
+
+    }
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -190,7 +194,7 @@ body {
     //   box-shadow: 0.4rem 0.4rem #8ba093a5;
   
       input[type="checkbox"] {
-        opacity: 0;
+        opacity: 1;
         position: absolute;
         width: 2.5rem;
         height: 2rem;
@@ -199,6 +203,7 @@ body {
       }
   
       .task-label {
+    
         flex-grow: 2;
         display: flex;
         background-image: url(/icons/squarepurple.png);
@@ -209,6 +214,12 @@ body {
         padding: 0 3.5rem;
         line-height: 2.5rem;
         align-self: center;
+
+        input[type="checkbox"]:checked + task-label {
+            background-image: url(icons/approved);
+            text-decoration: line-through;
+          }
+        
         // transition: opacity .2s linear;
   
         &::before {
@@ -221,14 +232,15 @@ body {
           height: 0.1rem;
           background: #5a374d; 
           transition: width 0.3s ease-out; 
+         
           
         }
-  
-        &:active::before {
-            // padding-left: 1rem;
-          width: 20%; /* Adjust width to account for padding */
-          background-image: url(/icons/approved.png);
-        }
+        
+        // &:active::before {
+        //     // padding-left: 1rem;
+        //   width: 20%; /* Adjust width to account for padding */
+        //   background-image: url(/icons/approved.png);
+        // }
       }
     }
   }
@@ -310,6 +322,5 @@ body {
         }
 
     }
-
-
+    
 }
