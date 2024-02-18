@@ -1,15 +1,18 @@
+const genID = ()=> Math.random().toString(36).slice(2,8);
 const todoList = document.querySelector('.todo-list');
 const taskInput = document.querySelector('#task-input');
 const addButton = document.querySelector('.add-task');
 const todoForm = document.querySelector('.todo-form');
 const clearCompletedBtn = document.querySelector('.clear-completed');
+const filterButtons = document.querySelector('.filter-btns')
+
+let todoData = [];
 
 function onFormSubmit(event){
-    event.preventDefault();
-    addTask();
-    taskInput.value= '';
-
+    event.preventDefault(); 
+    addTask(); 
 }
+
 todoForm.addEventListener('submit', onFormSubmit);
 
 
@@ -18,12 +21,14 @@ function addTask(){
         alert('Hey there, you forgot to write something!(:');
         
     }else{
+
     // gets value from user input:
     const inputValue = taskInput.value;
 
     // creates li:
     const todoTask = document.createElement('li');
     todoTask.classList.add('todo-task');
+    todoTask.classList.add("active");
 
     // creates checkbox:
     const checkBox = document.createElement('input');
@@ -45,12 +50,17 @@ function addTask(){
     todoTask.appendChild(removeTask);
 
     todoList.appendChild(todoTask);
-
+    // added push to array with task = inputValue , status to active , 
+    // and id calls a function that generates a rundom unique number.
+    todoData.push({task : taskInput.value,
+                    status : "active",
+                    id : genID()});
+    console.log(todoData)
     taskInput.value = '';
     // saveData();
+    
     removeTask.addEventListener('click', deleteTask);
     }
-   
 }
 
 
@@ -62,10 +72,16 @@ function taskCompletion(event) {
         let closetsLi = event.target.closest('li');
         if (event.target.checked) {
             closetsLi.classList.add("completed");
-
-
+            closetsLi.classList.remove("active");  
         } else {
             closetsLi.classList.remove("completed");
+            closetsLi.classList.add("active");
+            // for(let todo of todoData){
+            //     if(closetsLi.matches('.active')){
+            //         todo.status = "active";                    
+            //     }               
+            // }
+            // console.log(todoData)
         }
     }
 }
@@ -78,6 +94,7 @@ todoList.addEventListener("click", taskCompletion);
 function deleteTask(event){
     const closetsLi = event.target.closest('li');
     closetsLi.remove();
+    console.log(todoData);
 }
 // todoList.addEventListener('click', deleteTask);deletes all-not working.
 
@@ -93,7 +110,48 @@ function clearCompletedTasks() {
 }
 clearCompletedBtn.addEventListener('click', clearCompletedTasks);
 
+function filterTasks(event){
+    const activeTasks = document.querySelectorAll('.active')
+    const completedTasks = document.querySelectorAll('.completed');
 
+    if(event.target.matches('.filter-all')){
+        for (let i = 0; i < completedTasks.length; i++) {
+            completedTasks[i].style.display = "flex";
+        }
+        for (let i = 0; i < activeTasks.length; i++) {
+            activeTasks[i].style.display = "flex";
+        }
+    }
+
+    if(event.target.matches('.filter-active')){
+        for (let i = 0; i < completedTasks.length; i++) {
+            completedTasks[i].style.display = "none";
+        }
+        for (let i = 0; i < activeTasks.length; i++) {
+            activeTasks[i].style.display = "flex";
+        }
+    }
+
+    if(event.target.matches('.filter-completed')){
+        for (let i = 0; i < activeTasks.length; i++) {
+            activeTasks[i].style.display = "none";
+        }
+        for (let i = 0; i < completedTasks.length; i++) {
+            completedTasks[i].style.display = "flex";
+        }
+    }
+    
+    
+
+    // if(event.target.matches('.filter-all')){   
+    //     for (let i = 0; i < allTasks.length; i++) {
+    //         allTasks[i].style.display = "block";
+    //     }
+    // }
+
+
+}
+filterButtons.addEventListener('click' ,filterTasks)
 // function saveData(){
 //     localStorage.setItem("data", todoList.innerHTML);
 // }
