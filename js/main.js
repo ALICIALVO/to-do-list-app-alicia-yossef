@@ -47,7 +47,7 @@ function addTask(){
 
     taskInput.value = '';
     // saveData();
-    removeTask.addEventListener('click', deleteTask);
+    // removeTask.addEventListener('click', deleteTask);
     }
    
     }
@@ -78,7 +78,7 @@ function deleteTask(event){
     const closetsLi = event.target.closest('li');
     closetsLi.remove();
 }
-
+todoList.addEventListener('click', deleteTask);
 
 // function saveData(){
 //     localStorage.setItem("data", todoList.innerHTML);
