@@ -2,6 +2,7 @@ const todoList = document.querySelector('.todo-list');
 const taskInput = document.querySelector('#task-input');
 const addButton = document.querySelector('.add-task');
 const todoForm = document.querySelector('.todo-form');
+const clearCompletedBtn = document.querySelector('.clear-completed');
 
 function onFormSubmit(event){
     event.preventDefault();
@@ -47,10 +48,10 @@ function addTask(){
 
     taskInput.value = '';
     // saveData();
-    // removeTask.addEventListener('click', deleteTask);
+    removeTask.addEventListener('click', deleteTask);
     }
    
-    }
+}
 
 
 addButton.addEventListener('click', addTask);
@@ -78,7 +79,20 @@ function deleteTask(event){
     const closetsLi = event.target.closest('li');
     closetsLi.remove();
 }
-todoList.addEventListener('click', deleteTask);
+// todoList.addEventListener('click', deleteTask);deletes all-not working.
+
+
+function clearCompletedTasks() {
+    // get all the completed tasks:
+    const completedTasks = document.querySelectorAll('.todo-task.completed');
+
+    // remove each completed task:
+    for (let i = 0; i < completedTasks.length; i++) {
+        completedTasks[i].remove();
+    }
+}
+clearCompletedBtn.addEventListener('click', clearCompletedTasks);
+
 
 // function saveData(){
 //     localStorage.setItem("data", todoList.innerHTML);
