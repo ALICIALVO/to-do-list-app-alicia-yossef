@@ -47,7 +47,7 @@ function addTask(){
 
     taskInput.value = '';
     // saveData();
-
+    removeTask.addEventListener('click', deleteTask);
     }
    
     }
@@ -73,25 +73,13 @@ todoList.addEventListener("click", taskCompletion);
 
 
 
+// deletes tasks with trash icon:
+function deleteTask(event){
+    const closetsLi = event.target.closest('li');
+    closetsLi.remove();
+}
 
 
-
-
-
-
-
-// function taskCompletion(event){
-
-// }
-
-
-
-
-
-
-// function deleteTask(event){
-
-// }
 // function saveData(){
 //     localStorage.setItem("data", todoList.innerHTML);
 // }
