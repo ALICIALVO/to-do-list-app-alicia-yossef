@@ -33,10 +33,10 @@ function addTask() {
         todoTask.classList.add('todo-task');
         todoTask.classList.add("active");
 
-        const randomColor = getRandomColor();
+        const randomColor = rainbowColors();
 
         // apply random color to task element
-        todoTask.style.backgroundColor = rainbowColors;
+        todoTask.style.backgroundColor = randomColor;
         todoTask.style.opacity = "0.8";
 
         // creates checkbox:
