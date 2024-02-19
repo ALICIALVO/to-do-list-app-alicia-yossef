@@ -33,6 +33,12 @@ function addTask() {
         todoTask.classList.add('todo-task');
         todoTask.classList.add("active");
 
+        const randomColor = getRandomColor();
+
+        // apply random color to task element
+        todoTask.style.backgroundColor = randomColor;
+        todoTask.style.opacity = "0.8";
+
         // creates checkbox:
         const checkBox = document.createElement('input');
         checkBox.type = 'checkbox';
@@ -169,7 +175,22 @@ function filterTasks(event) {
 
 
 }
-filterButtons.addEventListener('click', filterTasks)
+filterButtons.addEventListener('click', filterTasks);
+
+
+let currentColorIndex = 0;
+function getRandomColor() {
+    // all possible hex color codes
+    const letters = ['#ffadad', '#ffd6a5', '#fdffb6', '#caffbf', '#9bf6ff', '#a0c4ff', '#bdb2ff', '#ffc6ff'];
+    
+    // get the current color based on the currentColorIndex
+    const color = letters[currentColorIndex];
+    
+    // increment the currentColorIndex for the next call
+    currentColorIndex = (currentColorIndex + 1) % letters.length;
+    
+    return color;
+}
 // function saveData(){
 //     localStorage.setItem("data", todoList.innerHTML);
 // }
