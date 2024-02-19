@@ -36,7 +36,7 @@ function addTask() {
         const randomColor = getRandomColor();
 
         // apply random color to task element
-        todoTask.style.backgroundColor = randomColor;
+        todoTask.style.backgroundColor = rainbowColors;
         todoTask.style.opacity = "0.8";
 
         // creates checkbox:
@@ -179,7 +179,7 @@ filterButtons.addEventListener('click', filterTasks);
 
 
 let currentColorIndex = 0;
-function getRandomColor() {
+function rainbowColors() {
     // all possible hex color codes
     const letters = ['#ffadad', '#ffd6a5', '#fdffb6', '#caffbf', '#9bf6ff', '#a0c4ff', '#bdb2ff', '#ffc6ff'];
     
