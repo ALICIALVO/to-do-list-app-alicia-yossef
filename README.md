@@ -4,7 +4,7 @@
 
 A vibrant and colorful to-do list app that adds a splash of joy to your productivity routine!
 
-![Example]()
+![Example](/icons/rainbowapp.png)
 
 ## Features
 
