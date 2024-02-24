@@ -1,15 +1,15 @@
-<h1 style="border-bottom: 0;">Rainbow To-Do List App 🌈</h1>
+<h1 style="border-bottom: none;">Rainbow To-Do List App 🌈</h1>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-<h2 style="border-bottom: 0;">A vibrant and colorful to-do list app that adds a splash of joy to your productivity routine!</h2>
+<h2 style="border-bottom: none;">A vibrant and colorful to-do list app that adds a splash of joy to your productivity routine!</h2>
 
 ![Example](/icons/rainbowapreview.png)
 
-<h2 style="border-bottom: 0;">🎯 Features</h2>
+<h2 style="border-bottom: none;">🎯 Features</h2>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -17,7 +17,7 @@
 - Easy-to-use task management ✅
 - Each new task is displayed in a different color from the rainbow palette, enhancing visual organization.
 
-<h2 style="border-bottom: 0;">⚙️ Installation</h2>
+<h2 style="border-bottom: none;">⚙️ Installation</h2>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -30,7 +30,7 @@
 3. **Start the App:**
    - Run `npm start` to start the development server.
 
-<h2 style="border-bottom: 0;">👀 Usage</h2>
+<h2 style="border-bottom: none;">👀 Usage</h2>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -45,13 +45,13 @@
 3. **Filtering Tasks:**
    - Use filters to view tasks by their status: All, Active, Completed.
 
-<h2 style="border-bottom: 0;">👋 Contributing</h2>
+<h2 style="border-bottom: none;">👋 Contributing</h2>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 Contributions are welcome! Feel free to open an issue or submit a pull request. 🚀
 
-<h2 style="border-bottom: 0;"> ⚠️ License</h2>
+<h2 style="border-bottom: none;"> ⚠️ License</h2>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
