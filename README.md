@@ -26,15 +26,15 @@ A vibrant and colorful to-do list app that adds a splash of joy to your producti
 ## Usage
 
 1. **Adding Tasks:**
-   - Click on the "+" button to add a new task.
+   - simply enter your task in the input field provided and click on the 'add' button. Your task will be added to the list of tasks in no time!
    - Each new task will automatically be assigned a color from the rainbow palette, ensuring visual prioritization.
 
 2. **Managing Tasks:**
-   - Click on a task to mark it as complete.
-   - Right-click on a task to edit or delete it.
+   - Click on a task to mark it as completed.
+   - Click on 'Clear Completed' to delete all done tasks, or the trash icon to delete a specific task.
 
 3. **Filtering Tasks:**
-   - Use the color filters to view tasks by their assigned color.
+   - Use filters to view tasks by their status: All, Active, Completed.
 
 ## Contributing
 
